@@ -40,29 +40,29 @@ The data has been obtained from https://www.kaggle.com/. If you are interested i
 
 
 ### Splitting the dataset into Train and Test set
-Using sklearn library train_test_split
+- Using sklearn library train_test_split
 from sklearn.model_selection import train_test_split
 
 
 ### Create Baseline model on the Training set
-Used KFold cross validation for train the data for different train and test sets 
+- Used KFold cross validation for train the data for different train and test sets 
 
 
 ### Evalution of Algorithms on Standardised Data
-Created Pipeline for first Scaling the data and then train the data different classification models
+- Created Pipeline for first Scaling the data and then training the data different classification models
 
 
 ### Hyperparameter Tuning - Tuning SVM
-Used GridSearchCV for hyperparameter tuning of SVM model.
+- Used GridSearchCV for hyperparameter tuning of SVM model.
 from sklearn.model_selection import GridSearchCV
 
 
 ### Application of SVM on dataset
-Fitting the SVM model using the dataset 
+- Fitting the SVM model using the dataset 
 
 
 ### Predicting the Test set results
-Predicting the test set results using .predict and comparing the results with the actual values
+- Predicting the test set results using .predict and comparing the results with the actual values
 
 
 ### Accuracy and Evaluation of SVM Model
