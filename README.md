@@ -41,6 +41,7 @@ The data has been obtained from https://www.kaggle.com/. If you are interested i
 
 ### Splitting the dataset into Train and Test set
 - Using sklearn library train_test_split
+
 from sklearn.model_selection import train_test_split
 
 
@@ -54,6 +55,7 @@ from sklearn.model_selection import train_test_split
 
 ### Hyperparameter Tuning - Tuning SVM
 - Used GridSearchCV for hyperparameter tuning of SVM model.
+
 from sklearn.model_selection import GridSearchCV
 
 
